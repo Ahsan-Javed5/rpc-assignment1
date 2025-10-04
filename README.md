@@ -1,3 +1,5 @@
+# I USED CHATGPT TO WRITE THIS README FILE
+
 # rpc-assignment1
 # RPC Calculator Assignment (rpc-assignment1)
 
