@@ -1,0 +1,19 @@
+# Base image for Python application
+FROM python:3.9-slim
+
+# Directory where app runs
+WORKDIR /app
+
+# Dependencies copy, as i added Flash and requests in requirements.txt
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Application files are copied
+COPY server.py .
+COPY client-ahsan.py . 
+
+# Port 8080 exposed, as sir yasir mentioned required port no 8080
+EXPOSE 8080
+
+# Its a default command to run a server
+CMD ["python", "server.py"]
