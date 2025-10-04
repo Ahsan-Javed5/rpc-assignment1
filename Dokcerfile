@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Application files are copied
-COPY server.py .
+COPY server-ahsan.py .
 COPY client-ahsan.py . 
 
 # Port 8080 exposed, as sir yasir mentioned required port no 8080
