@@ -2,7 +2,8 @@ import requests
 import json
 
 # base URL
-BASE_URL = "http://127.0.0.1:8080"
+#BASE_URL = "http://127.0.0.1:8080"
+BASE_URL = "https://rpc-assignment1-production.up.railway.app"
 TIMEOUT_SECONDS = 2
 
 def call_server(endpoint, x, y):
