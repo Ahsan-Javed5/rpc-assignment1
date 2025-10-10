@@ -9,8 +9,8 @@ This repository contains an implementation of a basic **Remote Procedure Call (R
 
 ## Core Components
 
-* **`server.py`**: The RPC server application.
-* **`client.py`**: A standalone client that calls the server endpoints and includes the required **2-second timeout** mechanism.
+* **`server-ahsan.py`**: The RPC server application.
+* **`client-ahsan.py`**: A standalone client that calls the server endpoints and includes the required **2-second timeout** mechanism.
 * **`Dockerfile`**: Defines the environment to containerize the application (ready for deployment).
 
 ## How to Run Locally

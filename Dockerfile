@@ -16,4 +16,4 @@ COPY client-ahsan.py .
 EXPOSE 8080
 
 # Its a default command to run a server
-CMD ["python", "server.py"]
+CMD ["python", "server-ahsan.py"]
